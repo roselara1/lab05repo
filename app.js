@@ -1,4 +1,3 @@
-
 "use strict";	
 	/////////////////////////////////////
 	/* Problem 1 (this is your demo that we'll solve in class)
@@ -87,7 +86,7 @@
 			var anotherarray = [total, mes4];
 			return [array4]
 			}
-		//eslint-disable-line 
+		//eslint-disable-line 
 		// function sumArray(testArray) {
 		//eslint-disable-line
 		// }
@@ -101,9 +100,23 @@
 		IMPORTANT DETAIL: You may not use the arithmetic operator * in this function. To do multiplication, use your multiply() function that you've already created. You're going to have to be resourceful to figure out how to do this.
 		Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiplyArray() function and see if the test passes.*/
 		// Write your code here
+
+		function MultiplyArray (testArray) {
+
+			var total = 1;
+			for (var z = 1; z <testArray.length; i++) {
+				total = multiplied(testArray[z], total)[1];
+
+				var mes5 = 'The numbers ' + testArray + ' have a product of ' + total + '.' );
+				var array2 = (total, mes5);
+				return [array2]
+			}
+
+		}
+
 		// function multiplyArray(testArray) {
 		//eslint-disable-line
 		// }
 		// Here is the test for multiplyArray(); uncomment it to run it
-		// testMultiplyArray(testArray);
+		testMultiplyArray(testArray);
 	// Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. You're done! Submit the link to the repo following the instructions in Canvas.

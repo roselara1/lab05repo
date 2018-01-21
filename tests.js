@@ -1,5 +1,4 @@
 "use strict";
-
 function testSum() {
 //eslint-disable-line
 if (sum(4, 7)[1] === "The sum of 4 and 7 is 11.") {
@@ -48,3 +47,4 @@ console.log("%c TEST FOR multiplyArray() PASSES", "color: green");
 console.log("%c TEST FOR multiplyArray() FAILS", "color: red");
 }
 }
+
