@@ -46,7 +46,7 @@
 	Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSumAndMultiply() function and see if the test passes.*/
 	// Write your code here
 
-	function sumAndMultiply (a, b, c) {
+	function SumAndMultiply (a, b, c) {
 		var ArraySM = a, b, c
 		var sum3 = 0;
 		for (var x = 0; x < ArraySM.length; x++){
@@ -64,7 +64,7 @@
 	//eslint-disable-line
 	// }
 	// Here is the test for sumAndMultiply(); uncomment it to run it
-	testsumAndMultiply(4, 7, 5)
+	testSumAndMultiply(4, 7, 5)
 	// Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 	/////////////////////////////////////
 	/* Problem 4
