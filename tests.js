@@ -18,7 +18,7 @@ function testMultiply() {
   }
 }
 
-function testSumAndMultiply() {
+function testsumAndMultiply() {
   //eslint-disable-line
   if (
     sumAndMultiply(4, 7, 5)[2] === "4 and 7 and 5 sum to 16." &&
