@@ -47,3 +47,4 @@ console.log("%c TEST FOR multiplyArray() PASSES", "color: green");
 console.log("%c TEST FOR multiplyArray() FAILS", "color: red");
 }
 }
+
